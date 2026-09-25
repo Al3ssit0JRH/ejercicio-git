@@ -2,7 +2,7 @@ from flask import Flask
 
 nombre = "Alejandro"
 
-app = Flask("app_conflicto")
+app = Flask(__name__)
 
 @app.route('/')
 def index():
