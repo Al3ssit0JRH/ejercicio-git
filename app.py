@@ -11,9 +11,5 @@ def index():
 Bienvenido al portal universitario, {nombre}!
 "
 
-@app.route('/api/status')
-def status():
-return {"status": "ok", "entorno": "contenedor-docker", "version": "1.1.0"}
-
 if name == 'main':
 app.run(host='0.0.0.0', port=5000)
