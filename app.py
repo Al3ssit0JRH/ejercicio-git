@@ -1,9 +1,8 @@
 from flask import Flask
 
-# Nombre a desplegar
 nombre = "Alejandro"
 
-app = Flask(__name__)
+app = Flask("app_error")
 
 @app.route('/')
 def index():
