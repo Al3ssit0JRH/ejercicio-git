@@ -1,2 +1,3 @@
 prueba jenkins
 prueba 2
+prueba automatica
